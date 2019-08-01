@@ -9,7 +9,7 @@
 - 播放器端
 - 支持播放、暂停、上一首、下一首
 
-### 播放器端接入
+### 播放器端接入主要步骤
 1. 引入support media 包：com.android.support:support-media-compat:27.1.1
 2. Service ->  MediaBrowserServiceCompat
 	同时修改清单文件声明 <action android:name="android.media.browse.MediaBrowserService" />
@@ -36,7 +36,7 @@ ComponentName componentName = new ComponentName("com.android.bluetooth",
 "com.android.bluetooth.a2dpsink.mbs.A2dpMediaBrowserService"); 
 ```
 
-### Client端接入步骤
+### Client端接入主要步骤
 1. 引入support media 包：com.android.support:support-media-compat:27.1.1
 
 2. MediaBrowser.connect 连接服务
@@ -66,5 +66,8 @@ ComponentName componentName = new ComponentName("com.android.bluetooth",
 - https://android.googlesource.com/platform/packages/apps/Car/Media/
 
 ## demo效果
+### 播放器端
 ![播放器端](img/player.png)
+
+### Client端
 ![客户端播放显示端](img/client.png)
