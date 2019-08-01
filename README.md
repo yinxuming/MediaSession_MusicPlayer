@@ -71,3 +71,9 @@ ComponentName componentName = new ComponentName("com.android.bluetooth",
 
 ### Client端
 ![客户端播放显示端](img/client.png)
+
+## 原理
+
+![MediaSession交互结构](img/ms_use.png)
+
+![官方说明](img/ms.png)
