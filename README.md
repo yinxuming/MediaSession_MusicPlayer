@@ -52,10 +52,10 @@ ComponentName componentName = new ComponentName("com.android.bluetooth",
 
 
 ## MediaButton 模拟物理按键测试
-- adb shell input keyevent 87	next
-- adb shell input keyevent 88		previous
-- adb shell input keyevent 126 	play
-- adb shell input keyevent 127	pause
+- adb shell input keyevent 87	// next
+- adb shell input keyevent 88	// previous
+- adb shell input keyevent 126 	// play
+- adb shell input keyevent 127	// pause
 
 
 ## 参考文档
